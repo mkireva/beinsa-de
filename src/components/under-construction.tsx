@@ -1,3 +1,4 @@
+import { Quote } from "@/app/Quote";
 import { Github, HardHat } from "lucide-react";
 
 export function UnderConstruction() {
@@ -10,6 +11,7 @@ export function UnderConstruction() {
           <p className="text-xl mb-8 max-w-md mx-auto">
             We&apos;re working hard to bring you something amazing. Stay tuned!
           </p>
+        <Quote/>
         </div>
       </main>
 
